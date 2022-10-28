@@ -11,7 +11,7 @@
 
 .bloco-1, .bloco-2, .bloco-3 {
     display: flex;
-    width: 100vw;
+    flex: 1;
     height: 100vh;
     justify-content: center;
     align-items: center;

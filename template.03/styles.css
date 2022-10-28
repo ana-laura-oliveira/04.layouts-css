@@ -6,25 +6,18 @@
 
 .main {
     display: flex;
+    flex-wrap: wrap;
     height: 100vh;
 }
 
-.left {
-    width: 100vw;
-}
-
-.right {
-    width: 100vw;
-}
-
-.bloco-1, .bloco-2, .bloco-3, .bloco-4 {
-    height: 50%;
+[class^="bloco-"] {
+    display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
     font-size: 24px;
-    font-family: sans-serif;
     font-weight: 700;
-    display: flex;
+    font-family: sans-serif;
 }
 
 .bloco-1{
