@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    height: 100px;
+    color: #fff;
+}
+
+.header {
+    background-color: #4200FF;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: #725BDA;
+}

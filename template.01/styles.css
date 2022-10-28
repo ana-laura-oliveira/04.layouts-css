@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.bloco-1, .bloco-2, .bloco-3 {
+    display: flex;
+    width: 100vw;
+    flex: 1;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.bloco-1 {
+    background-color: #F5841F;
+}
+
+.bloco-2 {
+    background-color: #6C63FF;
+}
+
+.bloco-3 {
+    background-color: #D9A6FF;
+    color: black;
+}
